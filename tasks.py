@@ -105,4 +105,4 @@ def embed_screenshot_to_receipt(order_number):
 
 def archive_receipts():
     archive = Archive()
-    archive.archive_folder_with_zip('./output/receipts', 'receipts.zip')
+    archive.archive_folder_with_zip('./output/receipts', './output/receipts.zip')
